@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./src/css/bootstrap.css">
+    <link rel="stylesheet" href="./src/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>SignUp</title>
+</head>
+<body>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top py-4">
+                <div class="container">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="./src/img/w-loop2.jpg" alt="" width="50" height="50"><h3 class="d-inline align-middle">W-Loop</h3>
+                    </a>
+                    <button class="navbar-toggler" data-toggle="collapse"
+                    data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                    <a href="#about" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                
+                                    <a href="SignUp.html" class="nav-link dropdown-toggle" data-toggle="dropdown"
+                                    >Sign Up</a>
+                                    <div class="dropdown-menu ">
+                                      <a href="#" class="dropdown-item text-primary">Company</a>
+                                      <a href="#" class="dropdown-item text-primary">User</a>
+                                    </div>
+                            </li>
+                            <li class="nav-item">
+                                
+                                    <a href="#contact" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+
+    <!-- FORM -->
+    <h2 class="py-4
+    ">Sign up</h2>
+    <form class="card-form card-body bg-warning">
+        <div class="form-group py-4">
+            <label for="first name"><i class="fa fa-user"></i>FirstName</label>
+            <input type="text" id="name" class="form-control" placeholder="First Name">
+        </div>
+        <div class="form-group">
+            <label for="last name"><i class="fa fa-user"></i>LastName</label>
+            <input type="text" class="form-control" placeholder="LastName"> 
+        </div>
+        <div class="form-group">
+            <label for="phone number"><i class="fa fa-phone"></i>Phone Number</label>
+            <input type="number" class="form-control" placeholder="Phone Number"> 
+        </div>
+        <div class="form-group">
+            <label for="email"><i class="fa fa-envelope"></i>Email</label>
+            <input type="email" id="email" placeholder="Email">
+        </div>
+        <div class="form-group">
+           <label for="gender">Gender</label>
+           <select name="gender" id="gender">
+               <option >Male</option>
+               <option>Female</option>
+           </select> 
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Create Password">
+        </div>
+        <div class="form-group">
+            <label for="password">Re-enter password</label>
+            <input type="password" id="password" placeholder="Re-enter password">
+        </div>
+        <button class="btn btn-outline-primary text-white bg-primary" >Register</button>
+
+    </form>
+    <br>
+
+    <footer id="main-footer" class="py-5 bg-primary text-white">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-6 ml-auto">
+                        <p class="lead">Copyright &copy; 2017</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+    
+ <script src="./src/js/bootstrap.min.js"></script>
+ <script src="./src/js/jquery.min.js"></script>
+ <script src="./src/js/navbar-fixed.js"></script>
+ <script src="./src/js/popper.min.js"></script>   
+</body>
+</html>
